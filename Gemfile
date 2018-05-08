@@ -36,6 +36,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'redis-rails'
 gem 'secure_headers'
 gem 'slim-rails'
+gem 'rails-i18n'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -54,5 +55,6 @@ group :development do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'brakeman'
-
+  gem 'i18n-tasks'
+  gem 'rack-lineprof'
 end
